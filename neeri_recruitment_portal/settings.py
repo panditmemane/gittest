@@ -243,3 +243,11 @@ CORS_ORIGIN_REGEX_WHITELIST = config(
 BASE_URL = env('BASE_URL')
 BASE_DEV_URL = env('BASE_DEV_URL')
 BASE_QA_URL = env('BASE_QA_URL')
+
+STATIC_URL = '/static/'
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'static')
+#]
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+STATICFILES = [STATIC_ROOT]

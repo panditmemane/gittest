@@ -245,9 +245,11 @@ BASE_DEV_URL = env('BASE_DEV_URL')
 BASE_QA_URL = env('BASE_QA_URL')
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'static')
+#]
 
 #STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 #STATICFILES = [STATIC_ROOT]
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')

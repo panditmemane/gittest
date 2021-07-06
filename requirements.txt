@@ -31,7 +31,7 @@ ruamel.yaml.clib==0.2.2
 setuptools==40.8.0
 sqlparse==0.4.1
 uritemplate==3.0.1
-urllib3==1.26.4
+urllib3==1.26.5
 attrs==20.3.0
 importlib-metadata==3.10.0
 iniconfig==1.1.1

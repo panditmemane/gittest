@@ -29,7 +29,7 @@ requests==2.25.1
 ruamel.yaml==0.16.13
 ruamel.yaml.clib==0.2.2
 setuptools==40.8.0
-sqlparse==0.4.1
+sqlparse==0.4.2
 uritemplate==3.0.1
 urllib3==1.26.4
 attrs==20.3.0
